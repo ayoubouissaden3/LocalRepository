@@ -4,6 +4,7 @@ class Banque {
     
     public void ajouterClient(String nom) {
 	nbClients+=1;
+	    ayoub ouissade ;
 	clients[nbClients]=new Client(nom);
     }
     
@@ -26,7 +27,7 @@ class Banque {
 	    case 1:
 		String nom=Console.readString("Entrez le nom du client: ");
 		ajouterClient(nom);
-		System.out.println("Le client a été ajouté");
+		System.out.println("Le client a Ã©tÃ© ajoutÃ©");
 		System.out.println();
 		break;
 	    case 2:
